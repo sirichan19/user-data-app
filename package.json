@@ -1,0 +1,45 @@
+{
+  "name": "user-data-lambda",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1692.0",
+    "axios": "^1.7.9",
+    "aws-cdk": "^2.177.0"
+   },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.123",
+    "@types/node": "^22.10.5",
+    "@types/jest": "^29.0.0",
+    "@babel/cli": "^7.26.4",
+    "@babel/preset-env": "^7.26.7",
+    "@babel/preset-typescript": "^7.26.0",
+    "@aws-sdk/client-dynamodb": "^3.0.0",
+    "@aws-sdk/lib-dynamodb": "^3.0.0",
+    "babel-jest": "^29.7.0",
+    "ts-node": "^10.2.1",
+    "ts-jest": "^29.0.5",
+    "tsconfig": "*",
+    "jest": "^29.0.5",
+    "jest-mock": "^29.0.5",
+    "jest-mock-extended": "^2.0.4",
+    "eslint": "^8.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sirichan19/audio-recorder.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/sirichan19/audio-recorder/issues"
+  },
+  "homepage": "https://github.com/sirichan19/audio-recorder#readme"
+}
